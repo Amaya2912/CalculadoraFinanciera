@@ -6,7 +6,6 @@ export default function ResultCard({ ok, error }) {
     <div aria-live="polite" className="mt-4 rounded-2xl bg-deep p-6 text-white">
       <div className="text-sm text-emerald-100">{ok.title}</div>
       <div className="my-2 break-words font-mono text-4xl font-medium">{ok.value}</div>
-      <div className="font-mono text-sm text-emerald-100">{ok.formula}</div>
     </div>
   )
 }

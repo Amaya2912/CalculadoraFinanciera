@@ -23,7 +23,7 @@ export default function Sidebar({ modules, activeId, onSelect }) {
         })}
       </nav>
       <p className="mt-8 hidden px-3 text-xs leading-6 text-muted md:block">
-        Jesús D. Santodomingo C.<br />Jhon A. Amaya L.<br />Camila Gomez
+        Jesús Santodomingo <br/>Jhon Amaya <br />Camila Gomez
       </p>
     </aside>
   )
